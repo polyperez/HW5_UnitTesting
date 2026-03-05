@@ -71,7 +71,7 @@ void test_divide(void)
 
 int divide(int a, int b)
 {
-    return 0;
+    return a / b;
 }
 
 int main(void) {
