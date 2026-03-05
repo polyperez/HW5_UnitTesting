@@ -51,7 +51,7 @@ void test_subtract(void)
 
 int subtract(int a, int b)
 {
-    return 0;   // intentionally wrong
+    return a - b;   // intentionally wrong
 }
 
 int main(void) {
