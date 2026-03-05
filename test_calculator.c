@@ -64,6 +64,16 @@ int multiply(int a, int b)
     return a *  b;   
 }
 
+void test_divide(void)
+{
+    TEST_ASSERT_EQUAL_INT(2, divide(10,5));
+}
+
+int divide(int a, int b)
+{
+    return 0;
+}
+
 int main(void) {
     UNITY_BEGIN();
     RUN_TEST(test_add_positive_numbers);
