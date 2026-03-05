@@ -84,6 +84,7 @@ int main(void) {
     RUN_TEST(test_add_underflow);
     RUN_TEST(test_subtract);
     RUN_TEST(test_multiply);
+    RUN_TEST(test_divide);
     return UNITY_END();
 }
 
