@@ -51,7 +51,17 @@ void test_subtract(void)
 
 int subtract(int a, int b)
 {
-    return a - b;   // intentionally wrong
+    return a - b;  
+}
+
+void test_multiply(void)
+{
+    TEST_ASSERT_EQUAL_INT(20, multiply(5,4));
+}
+
+int multiply(int a, int b)
+{
+    return 0;   
 }
 
 int main(void) {
@@ -63,6 +73,7 @@ int main(void) {
     RUN_TEST(test_add_overflow);
     RUN_TEST(test_add_underflow);
     RUN_TEST(test_subtract);
+    RUN_TEST(test_multiply);
     return UNITY_END();
 }
 
