@@ -61,7 +61,7 @@ void test_multiply(void)
 
 int multiply(int a, int b)
 {
-    return 0;   
+    return a *  b;   
 }
 
 int main(void) {
