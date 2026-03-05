@@ -49,29 +49,14 @@ void test_subtract(void)
     TEST_ASSERT_EQUAL_INT(3, subtract(5,2));
 }
 
-int subtract(int a, int b)
-{
-    return a - b;  
-}
-
 void test_multiply(void)
 {
     TEST_ASSERT_EQUAL_INT(20, multiply(5,4));
 }
 
-int multiply(int a, int b)
-{
-    return a *  b;   
-}
-
 void test_divide(void)
 {
     TEST_ASSERT_EQUAL_INT(2, divide(10,5));
-}
-
-int divide(int a, int b)
-{
-    return a / b;
 }
 
 int main(void) {
